@@ -29,7 +29,7 @@ dependencies {
     implementation("com.github.wabbit-corp:scala-std-algebra:0.0.1")
     implementation("com.github.wabbit-corp:scala-std-data-reprshow:0.0.1")
     implementation("com.github.wabbit-corp:scala-std-data-need:0.0.1")
-    implementation("com.github.wabbit-corp:scala-std-evidence:0.0.1")
+    implementation("com.github.wabbit-corp:scala-std-evidence:0.1.0")
 
     implementation("org.scala-lang:scala3-library_3:3.6.4")
 
