@@ -175,8 +175,5 @@ object MHash {
 
       override def compare(x: MHash, y: MHash): Int =
         java.lang.Integer.compareUnsigned(x.value, y.value)
-
-      override def delay(a: Need[MHash]): MHash = a.value
-      override def project(a: MHash): Need[MHash] = Need.now(a)
     }
 }
